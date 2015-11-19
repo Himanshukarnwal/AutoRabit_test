@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
+        <members>CompareMyInsuranceController</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>GenerateXMLforALIPFinal</members>
+        <members>InsurancePortalCtrl</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>QuoteEmailTempalteController</members>
+        <members>QuoteGenerationCtrl</members>
+        <members>QuotePageController</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
+        <members>UnderConstruction1CRTL</members>
+        <members>calculateQuoteAmount</members>
+        <members>getLocationDetails</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CompareInsuranceComponentui</members>
+        <members>ContactManagementComponentui</members>
+        <members>InsuranceComponentui</members>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>Applicant_Informationui</members>
+        <members>ApplyMyInsuranceConfirmui</members>
+        <members>ApplyMyInsuranceThanksui</members>
+        <members>ApplyMyInsuranceui</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CompareMyInsuranceui</members>
+        <members>Exception</members>
+        <members>ExternalSitesFacebookPage</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>InsuranceApplyUI</members>
+        <members>InsuranceHIPAA</members>
+        <members>InsurancePortalNewQuiz</members>
+        <members>InsurancePortalPromo</members>
+        <members>InsurancePortalui</members>
+        <members>InsuranceThankui</members>
+        <members>JenkinsTest</members>
+        <members>LI_App</members>
+        <members>LI_App1</members>
+        <members>MyProfilePage</members>
+        <members>Payment_Informationui</members>
+        <members>PersonalMedicalHistoryui</members>
+        <members>Prospect_Details_Saveui</members>
+        <members>Prospect_Detailsui</members>
+        <members>Quick_Quoteui</members>
+        <members>QuoteHistoryui</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Test_Jenkins_flow</members>
+        <members>Test_Welcome</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <members>UnderConstruction1</members>
+        <members>VFP_Application_Summaryui</members>
+        <members>VFP_Form_Screenui</members>
+        <members>quotepdf</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>LeadTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>Lead.LeadAssignmentRule</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Lead.Default Lead Process</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Internal Ideas</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <members>Account.Age__c</members>
+        <members>Account.Birth_Date__c</members>
+        <members>Account.Children__c</members>
+        <members>Account.Distribution__c</members>
+        <members>Account.Facebook_ID__c</members>
+        <members>Account.Gender__c</members>
+        <members>Account.Height__c</members>
+        <members>Account.InsuredTobaccoConsumption__c</members>
+        <members>Account.Insuredflownaircraft__c</members>
+        <members>Account.LifeDisabilityInsurance__c</members>
+        <members>Account.Marital_Status__c</members>
+        <members>Account.Middle_Name__c</members>
+        <members>Account.Occupation__c</members>
+        <members>Account.Primary_Beneficiary__c</members>
+        <members>Account.ProspectProfilePictureDocId__c</members>
+        <members>Account.Relationship__c</members>
+        <members>Account.Social_Security_Number__c</members>
+        <members>Account.Tax_ID__c</members>
+        <members>Account.Tobacco_Nicotine_Use__c</members>
+        <members>Account.Type__c</members>
+        <members>Account.US_Citizen__c</members>
+        <members>Account.Weight__c</members>
+        <members>Account.Your_Health__c</members>
+        <members>Activity.Count_of_Events__c</members>
+        <members>Activity.Count_of_Tasks__c</members>
+        <members>FB_Categories__c.Recommended_Rider_1__c</members>
+        <members>FB_Categories__c.Recommended_Rider_2__c</members>
+        <members>Lead.Age__c</members>
+        <members>Lead.Children__c</members>
+        <members>Lead.City__c</members>
+        <members>Lead.Coverage_Amount__c</members>
+        <members>Lead.Coverage__c</members>
+        <members>Lead.D_O_B__c</members>
+        <members>Lead.Facebook_ID__c</members>
+        <members>Lead.Facebook_Profile_URL__c</members>
+        <members>Lead.First_Name__c</members>
+        <members>Lead.Gender__c</members>
+        <members>Lead.Height__c</members>
+        <members>Lead.Interest__c</members>
+        <members>Lead.Last_Name__c</members>
+        <members>Lead.Mailing_Address__c</members>
+        <members>Lead.Marital_Status__c</members>
+        <members>Lead.Middle_Name__c</members>
+        <members>Lead.Number__c</members>
+        <members>Lead.Occupation__c</members>
+        <members>Lead.Other__c</members>
+        <members>Lead.Phone_REGEX__c</members>
+        <members>Lead.Preferred_contact_time__c</members>
+        <members>Lead.Product_Interest__c</members>
+        <members>Lead.ProspectProfilePictureDocId__c</members>
+        <members>Lead.Quote_Amount__c</members>
+        <members>Lead.Reference_Number__c</members>
+        <members>Lead.Rider__c</members>
+        <members>Lead.Social_Security_Number__c</members>
+        <members>Lead.State_Province__c</members>
+        <members>Lead.Street_Name__c</members>
+        <members>Lead.Street_Number__c</members>
+        <members>Lead.Tax_ID__c</members>
+        <members>Lead.Term_Length__c</members>
+        <members>Lead.Tobacco_nicotine_use__c</members>
+        <members>Lead.Weight__c</members>
+        <members>Lead.Your_Health__c</members>
+        <members>Lead.Zip_Code__c</members>
+        <members>Lead.assignment__c</members>
+        <members>Lead.intial_premium__c</members>
+        <members>Lead.tempPolicyAmount__c</members>
+        <members>Opportunity.Cover_Amount__c</members>
+        <members>Opportunity.Distribution__c</members>
+        <members>Opportunity.Premium__c</members>
+        <members>Opportunity.Primary_Benefi__c</members>
+        <members>Opportunity.Relationship__c</members>
+        <members>Opportunity.Term_Length__c</members>
+        <members>Policy__c.Account_Name__c</members>
+        <members>Policy__c.Alip_Application_Id__c</members>
+        <members>Policy__c.Alip_Application_Status__c</members>
+        <members>Policy__c.Initial_Premium_Payment__c</members>
+        <members>Policy__c.Mode_Of_Payment__c</members>
+        <members>Policy__c.Policy_End_Date__c</members>
+        <members>Policy__c.Policy_Start_Date__c</members>
+        <members>Policy__c.Product__c</members>
+        <members>Policy__c.Quote_Name__c</members>
+        <members>Policy__c.SendEmail__c</members>
+        <members>Policy__c.Status__c</members>
+        <members>Policy__c.Tax_Qualification_Status__c</members>
+        <members>Premium_Calculation__c.Age_Lower__c</members>
+        <members>Premium_Calculation__c.Age_Upper__c</members>
+        <members>Premium_Calculation__c.Coverage_Lower__c</members>
+        <members>Premium_Calculation__c.Coverage_Upper__c</members>
+        <members>Premium_Calculation__c.Coverage__c</members>
+        <members>Premium_Calculation__c.Gender__c</members>
+        <members>Premium_Calculation__c.Nicotine__c</members>
+        <members>Premium_Calculation__c.Term__c</members>
+        <members>Premium_Calculation__c.Value__c</members>
+        <members>Product2.Current_Credited_Interest_Rate__c</members>
+        <members>Product2.Elimination_Period__c</members>
+        <members>Product2.Guarenteed_Minimum_Interest_Rate__c</members>
+        <members>Product2.Max_Benefit__c</members>
+        <members>Product2.Monthly_Benefit__c</members>
+        <members>Product2.Payment_Term__c</members>
+        <members>Product2.Premium__c</members>
+        <members>Product2.Rate__c</members>
+        <members>Product2.Rider__c</members>
+        <members>Product2.Sum_Insured__c</members>
+        <members>Product2.Term__c</members>
+        <members>Product2.Tobacco_User__c</members>
+        <members>Product2.Waiting_Period__c</members>
+        <members>Quote.Payment_Term__c</members>
+        <members>Quote.Premium__c</members>
+        <members>Quote.Product__c</members>
+        <members>Quote.Recommended_Rider__c</members>
+        <members>Quote.Rider__c</members>
+        <members>Quote.Sum_Insured_Amount__c</members>
+        <members>Quote.Sum_Insured__c</members>
+        <members>Quote.Term_Length__c</members>
+        <members>Quote.Tobacco_Nicotine__c</members>
+        <members>User.Age__c</members>
+        <members>User.Count__c</members>
+        <members>User.DOB__c</members>
+        <members>User.Interest__c</members>
+        <members>User.Link_to_User__c</members>
+        <members>User.Marital_Status__c</members>
+        <members>WorkCoaching.Count_of_Coaching_Relationships__c</members>
+        <members>WorkReward.Reward_Value__c</members>
+        <members>tempValueHolder__c.values__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CL_CompanyName</members>
+        <members>CL_LeadStatus</members>
+        <members>CL_ProductInterest</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountContactRole</members>
+        <members>Activity</members>
+        <members>Asset</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>Contact</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>Event</members>
+        <members>FB_Categories__c</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>PartnerRole</members>
+        <members>Policy__c</members>
+        <members>Premium_Calculation__c</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>Quote</members>
+        <members>QuoteLineItem</members>
+        <members>SOSSession</members>
+        <members>SOSSessionActivity</members>
+        <members>SignupRequest</members>
+        <members>Site</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <members>WorkBadge</members>
+        <members>WorkBadgeDefinition</members>
+        <members>WorkThanks</members>
+        <members>tempValueHolder__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>FB_Categories__c-en_US</members>
+        <members>Policy__c-en_US</members>
+        <members>Premium_Calculation__c-en_US</members>
+        <members>tempValueHolder__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>MyInsurance</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Coaching_Dashboards/Manager_Coaching_Dashboard</members>
+        <members>CompanyDashboards/AdoptionDashboard</members>
+        <members>CompanyDashboards/CompanyPerformanceDashboard</members>
+        <members>Performance_Summary_Dashboards/Performance_Summary</members>
+        <members>Recognition_Dashboards/Work_Recognition_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>unfiled$public/Acknowledgement_email_to_lead</members>
+        <members>unfiled$public/ContactFollowUpSAMPLE</members>
+        <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
+        <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New Comment %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New User Login %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service Reset Password %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORTCaseResponsewithSolutionSAMPLE</members>
+        <members>unfiled$public/SUPPORTCaseescalationnotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
+        <members>unfiled$public/Send_email_to_lead_for_electronic_submission</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>Dashboard Home Page Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CaseInteraction-Case Feed Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-General</members>
+        <members>Contract-Contract Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>PersonAccount-Person Account Layout</members>
+        <members>Policy__c-Policy Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>SOSSession-SOS Session Layout</members>
+        <members>SOSSessionActivity-SOS Session Activity Layout</members>
+        <members>SignupRequest-Signup Request Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WorkAccess-Access Layout</members>
+        <members>WorkBadge-Badge Layout</members>
+        <members>WorkBadge-Badge Received Layout 192</members>
+        <members>WorkBadgeDefinition-Badge Definition Layout</members>
+        <members>WorkBadgeDefinition-Badge Definition Layout 2%2E0</members>
+        <members>WorkBadgeDefinition-Badge Layout 192</members>
+        <members>WorkThanks-Thanks Layout</members>
+        <members>tempValueHolder__c-tempValueHolder Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewThisWeek</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.MyDelegatedActivities</members>
+        <members>Activity.MyTeamsActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.Above30Years_Lead</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.Below30Years_Lead</members>
+        <members>Lead.BostonRegion_Lead</members>
+        <members>Lead.ChicagoRegion_Lead</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.NewYorkRegion_Lead</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Policy__c.All</members>
+        <members>Product2.AllProducts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>WorkFeedbackRequest.AboutTopics</members>
+        <members>WorkFeedbackRequest.All</members>
+        <members>WorkFeedbackTemplate.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Work_com_Admin_User</members>
+        <members>Work_com_Standard_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>Chatter Only User</members>
+        <members>Content Only User</members>
+        <members>ContractManager</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>CustomerManager</members>
+        <members>CustomerUser</members>
+        <members>Force%2Ecom - One App User</members>
+        <members>Gold Partner User</members>
+        <members>Guest License User</members>
+        <members>High Volume Customer Portal User</members>
+        <members>Insurance Advisor</members>
+        <members>Knowledge Only User</members>
+        <members>MarketingProfile</members>
+        <members>MyInsurance Profile</members>
+        <members>Overage Customer Portal Manager Custom</members>
+        <members>Overage Customer Portal Manager Standard</members>
+        <members>Overage High Volume Customer Portal User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>ReadOnly</members>
+        <members>Siteforce Only User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Above30Years</members>
+        <members>Below30Years</members>
+        <members>BostonRegion</members>
+        <members>ChicagoRegion</members>
+        <members>NewYorkRegion</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>Task.Defer</members>
+        <members>Task.EditDescription</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdateStatus</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Account.Business_Account</members>
+        <members>Account.PersonAccount</members>
+        <members>Lead.Default_Record_Type</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ALIP_Outbound</members>
+        <members>CWB_Tool</members>
+        <members>USZipCodes</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>Coaching_Reports/Coaching_Activities_Team_Last_30_days</members>
+        <members>Goal_Reports/Goals_Flagged_as_Behind_OR_Critical</members>
+        <members>Goal_Reports/Goals_Progress</members>
+        <members>Goal_Reports/Key_Company_Goal_Progress</members>
+        <members>Goal_Reports/Most_active_goals_by_Feed_posts</members>
+        <members>Goal_Reports/Stale_Goals</members>
+        <members>Performance_Summary_Reports/All_Active_users_with_a_Manager</members>
+        <members>Performance_Summary_Reports/Performance_Cycles_with_Questions_X</members>
+        <members>Performance_Summary_Reports/Performance_Summaries_with_Answers_Q1</members>
+        <members>Performance_Summary_Reports/Performance_Summaries_with_Answers_Q3</members>
+        <members>Performance_Summary_Reports/Performance_Summary_Cycle_Status_Update</members>
+        <members>Performance_Summary_Reports/Performance_Summary_by_Department</members>
+        <members>Performance_Summary_Reports/Performance_answers_by_question_Q1</members>
+        <members>Performance_Summary_Reports/Performance_answers_by_question_Q3</members>
+        <members>Performance_Summary_Reports/Self_Summary_Questions_X</members>
+        <members>Performance_Summary_Reports/Summary_Cycle_Details</members>
+        <members>Performance_Summary_Reports/Summary_Cycle_Details_submitted</members>
+        <members>Recognition_Reports_Motivate/Badges_Given_By_Date_Given</members>
+        <members>Recognition_Reports_Motivate/Breakdown_of_Badges_Given_Role</members>
+        <members>Recognition_Reports_Motivate/Breakdown_of_Badges_Received_Role</members>
+        <members>Recognition_Reports_Motivate/Reward_Funds_Given</members>
+        <members>Recognition_Reports_Motivate/Reward_Funds_Remaining</members>
+        <members>Recognition_Reports_Motivate/Thanks_Given_Recipient_Data</members>
+        <members>Recognition_Reports_Motivate/Thanks_Received_by_Role</members>
+        <members>Recognition_Reports_Motivate/Thanks_by_Giver</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Coaching_Activities</members>
+        <members>Coaching_Feeds</members>
+        <members>Goals</members>
+        <members>Goals_Feed</members>
+        <members>Goals_and_Metrics</members>
+        <members>Performance_Cycles_with_Questions</members>
+        <members>Performance_Summary_Cycles_with_Requests</members>
+        <members>Performance_Summary_Requests_with_Answers</members>
+        <members>Performance_summary_users_with_managers</members>
+        <members>Reward_Funds</members>
+        <members>Thanks_and_Badges</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>Lead_Agent</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Bootstrap</members>
+        <members>CompareInsuranceStaticUI</members>
+        <members>CompareInsurancebootstrap</members>
+        <members>CorlateTeamplate</members>
+        <members>Facebookimg</members>
+        <members>GreysbAdminthem</members>
+        <members>InsuranceLogo</members>
+        <members>InsuranceLogo2</members>
+        <members>Insurancerightlogo</members>
+        <members>Metlifeglobalcss</members>
+        <members>Minus_Symbol</members>
+        <members>MyInsuranceStaticUI</members>
+        <members>NewBootStrap</members>
+        <members>ORimage</members>
+        <members>Plus_Symbol</members>
+        <members>Pluto</members>
+        <members>Pluto1</members>
+        <members>QusetionMark</members>
+        <members>RangeSlider</members>
+        <members>SF1AppStaticUI</members>
+        <members>SiteSamples</members>
+        <members>applyinsurance1</members>
+        <members>applyinsurance2</members>
+        <members>applyinsurance3</members>
+        <members>applyinsurance4</members>
+        <members>applyinsurance5</members>
+        <members>applyinsurance6</members>
+        <members>banner</members>
+        <members>bootstrapslider</members>
+        <members>compareimg</members>
+        <members>compareinsurancelog</members>
+        <members>guage</members>
+        <members>hereisurquotes</members>
+        <members>insuranceNewQuizStaticUI</members>
+        <members>jquery</members>
+        <members>marketcom</members>
+        <members>mslog</members>
+        <members>p</members>
+        <members>page_js</members>
+        <members>phone_picture</members>
+        <members>sbAdminthem</members>
+        <members>static_js</members>
+        <members>umberalla</members>
+        <members>web</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account.AltavistaNews</members>
+        <members>Account.GoogleMaps</members>
+        <members>Account.GoogleNews</members>
+        <members>Account.GoogleSearch</members>
+        <members>Account.HooversProfile</members>
+        <members>Account.YahooMaps</members>
+        <members>Campaign.ViewAllCampaignMembers</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Contact.GoogleMaps</members>
+        <members>Contact.GoogleSearch</members>
+        <members>Contact.SendGmail</members>
+        <members>Contact.YahooMaps</members>
+        <members>Contact.YahooWeather</members>
+        <members>Lead.AltavistaNews</members>
+        <members>Lead.GoogleMaps</members>
+        <members>Lead.GoogleNews</members>
+        <members>Lead.GoogleSearch</members>
+        <members>Lead.HooversProfile</members>
+        <members>Lead.SendGmail</members>
+        <members>Lead.YahooMaps</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Lead.Acknowledgement_email_to_the_lead</members>
+        <members>Lead.Email_Alert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Lead.Lead creation Acknowledgement email</members>
+        <members>Lead.lead_assignment_email</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>ChatterAnswers</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>PathAssistant</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <version>34.0</version>
+</Package>
